@@ -15,6 +15,13 @@ $ ls<ENTER>
 
 Copy and paste the output of ls below.
 ----------
+[C:\~]$ ls
+Directory of C:\Users\samue.DESKTOP-TEA069N\OneDrive\Documents
+
+Name                      Host                  Protocol  User Name  
+------------------------- --------------------- --------- -----------
+Collage 2020 Freshmen Year/
+Custom Office Templates/
 
 
 
@@ -28,6 +35,9 @@ $ ls -l Documents<ENTER>
 
 Copy and paste the first *two lines* of output below.
 ----------
+[C:\~]$ ls -l documents
+usage: list [session|option|hostkey|userkey]
+[C:\~]$ 
 
 
 
@@ -41,6 +51,9 @@ $ ls -a Documents
 
 Copy and paste the first *two lines* of output below.
 ----------
+[C:\~]$ ls -a Documents
+usage: list [session|option|hostkey|userkey]
+[C:\~]$ 
 
 
 
