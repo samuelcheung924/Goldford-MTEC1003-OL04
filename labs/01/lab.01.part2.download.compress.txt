@@ -15,7 +15,7 @@ Feel free to use your workstation to test your answers to the questions that don
 1. Write the command that you would use to change to the root directory.
 ----------
 
-
+test
 
 ==========
 2. Write the command that you would use to change to your home directory.
