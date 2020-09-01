@@ -16,8 +16,10 @@ $ ls<ENTER>
 Copy and paste the output of ls below.
 ----------
 
-
-
+echeung-as-MBP:~ scheung$ ls
+Applications	Documents	Library		Music		Public
+Desktop		Downloads	Movies		Pictures
+echeung-as-MBP:~ scheung$
 
 
 
