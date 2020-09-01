@@ -12,10 +12,19 @@ Follow the instructions line-by-line.
 1. Open Terminal.  Type:
 
 $ ls<ENTER>
-
+ 
 Copy and paste the output of ls below.
 ----------
+[C:\Users\samue.DESKTOP-TEA069N\OneDrive\Documents]$ ls
+Directory of C:\Users\samue.DESKTOP-TEA069N\OneDrive\Documents
 
+Name                      Host                  Protocol  User Name  
+------------------------- --------------------- --------- -----------
+Collage 2020 Freshmen Year/
+Custom Office Templates/
+NetSarang Computer/
+
+[C:\Users\samue.DESKTOP-TEA069N\OneDrive\Documents]$ 
 
 
 
@@ -24,13 +33,11 @@ Copy and paste the output of ls below.
 ==========
 2.  Type:
 
-$ ls -l Documents<ENTER>
-
+$ ls -l Documents<ENTER>ls 
 Copy and paste the first *two lines* of output below.
 ----------
-
-
-
+[C:\~]$ ls -l Documents
+usage: list [session|option|hostkey|userkey]
 
 
 
@@ -41,6 +48,8 @@ $ ls -a Documents
 
 Copy and paste the first *two lines* of output below.
 ----------
+[C:\~]$ ls -a Documents
+usage: list [session|option|hostkey|userkey]
 
 
 
@@ -54,6 +63,10 @@ $ ls doesnotexist
 
 Copy and paste the output below.
 ----------
+[C:\~]$ ls doesnotexist
+usage: list [session|option|hostkey|userkey]
+[C:\~]$ 
+[C:\~]$ 
 
 
 
@@ -63,7 +76,7 @@ Copy and paste the output below.
 ==========
 5.  What key do I press to go to the previous command?
 ----------
-
+Up arrow key
 
 
 
@@ -73,7 +86,8 @@ Copy and paste the output below.
 6.  Name two flags that we used in this exercise.
 ----------
 
-
+-l
+-a
 
 
 
@@ -82,6 +96,7 @@ Copy and paste the output below.
 7.  What was the main command that we used throughout this exercise?
 ----------
 
+ls
 
 
 
@@ -91,7 +106,8 @@ Copy and paste the output below.
 8.  What's one an argument that we've so far passed to a command?
 ----------
 
-
+-l
+-a
 
 
 
@@ -103,6 +119,14 @@ $ foo<ENTER>
 
 Copy and paste the output below.
 ----------
+[C:\~]$ foo
+'foo' is not recognized as an internal or external command,
+operable program or batch file.
+
+[C:\~]$ 
+[C:\~]$ 
+
+
 
 
 
@@ -116,6 +140,11 @@ Copy and paste the output below.
 
 Copy and paste the output below.
 ----------
+[C:\~]$ up
+'up' is not recognized as an internal or external command,
+operable program or batch file.
+
+[C:\~]$ 
 
 
 
@@ -129,6 +158,9 @@ $ ls -a Desktop
 
 Identify the command, flag, argument, and prompt:
 ----------
+[C:\~]$ ls -a Desktop
+usage: list [session|option|hostkey|userkey]
+[C:\~]$ 
 
 
 
@@ -146,6 +178,7 @@ Follow the instructions line-by-line.
 ==========
 12. Open a new terminal window. Create a directory called mtec1002. What command did you use?
 ----------
+mkdir
 
 
 
@@ -155,8 +188,8 @@ Follow the instructions line-by-line.
 ==========
 13. Change your directory so that you're in mtec1002. What command did you use?
 ----------
-
-
+CD MTECH1002
+ 
 
 
 
@@ -462,7 +495,7 @@ What command did you use?
 ==========
 36. What command is used to delete empty directories?
 ----------
-
+rmdir *" command
 
 
 
@@ -498,7 +531,7 @@ What command did you use?
 ==========
 40. What's a pathname?
 ----------
-
+A pathname is a general form of the name or directory, specifies a unique location in a file system.
 
 
 
@@ -507,7 +540,7 @@ What command did you use?
 ==========
 41. What is a directory?
 ----------
-
+A file that consists of a set of other files
 
 
 
