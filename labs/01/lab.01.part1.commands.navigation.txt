@@ -205,6 +205,9 @@ If it doesn't ask for help before moving on!
 
 Copy and paste the output of pwd below.
 ----------
+[C:\~\MTECH1002]$ pwd
+C:\Users\samue.DESKTOP-TEA069N\OneDrive\Documents\MTECH1002
+[C:\~\MTECH1002]$ 
 
 
 
@@ -219,6 +222,16 @@ $ ls
 
 Copy and paste the output below.
 ----------
+[C:\~\MTECH1002]$ mkdir animals
+
+[C:\~\MTECH1002]$ ls
+Directory of C:\Users\samue.DESKTOP-TEA069N\OneDrive\Documents\MTECH1002
+
+Name                      Host                  Protocol  User Name  
+------------------------- --------------------- --------- -----------
+animals/
+
+[C:\~\MTECH1002]$ 
 
 
 
@@ -233,6 +246,17 @@ $ ls
 
 Copy and paste the output below.
 ----------
+[C:\~\MTECH1002]$ mkdir food
+
+[C:\~\MTECH1002]$ ls
+Directory of C:\Users\samue.DESKTOP-TEA069N\OneDrive\Documents\MTECH1002
+
+Name                      Host                  Protocol  User Name  
+------------------------- --------------------- --------- -----------
+animals/
+food/
+
+[C:\~\MTECH1002]$ 
 
 
 
@@ -242,12 +266,17 @@ Copy and paste the output below.
 ==========
 17. Type:
 
-$ mkdir -p foo/bar/baz/qux
-$ ls
+$ mkdir -p foo/bar/
 
 Copy and paste the output below.
 ----------
+[C:\~\MTECH1002]$ mkdir -p foo/bar/
+The syntax of the command is incorrect.
 
+[C:\~\MTECH1002]$ 
+
+
+I use xShell but it does not take the -p argument. 
 
 
 
