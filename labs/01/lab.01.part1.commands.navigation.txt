@@ -12,20 +12,14 @@ Follow the instructions line-by-line.
 1. Open Terminal.  Type:
 
 $ ls<ENTER>
- 
+
 Copy and paste the output of ls below.
 ----------
-[C:\Users\samue.DESKTOP-TEA069N\OneDrive\Documents]$ ls
-Directory of C:\Users\samue.DESKTOP-TEA069N\OneDrive\Documents
 
-Name                      Host                  Protocol  User Name  
-------------------------- --------------------- --------- -----------
-Collage 2020 Freshmen Year/
-Custom Office Templates/
-NetSarang Computer/
-
-[C:\Users\samue.DESKTOP-TEA069N\OneDrive\Documents]$ 
-
+echeung-as-MBP:~ scheung$ ls
+Applications	Documents	Library		Music		Public
+Desktop		Downloads	Movies		Pictures
+echeung-as-MBP:~ scheung$ 
 
 
 
@@ -33,11 +27,25 @@ NetSarang Computer/
 ==========
 2.  Type:
 
-$ ls -l Documents<ENTER>ls 
+$ ls -l Documents<ENTER>
+
 Copy and paste the first *two lines* of output below.
 ----------
-[C:\~]$ ls -l Documents
-usage: list [session|option|hostkey|userkey]
+echeung-as-MBP:~ scheung$ ls -l
+total 0
+drwx------@  3 scheung  staff   102 Sep  1 14:27 Applications
+drwx------@  3 scheung  staff   102 Sep  1 09:19 Desktop
+drwx------@  4 scheung  staff   136 Sep  1 20:22 Documents
+drwx------+  4 scheung  staff   136 Sep  1 20:18 Downloads
+drwx------@ 59 scheung  staff  2006 Sep  1 19:28 Library
+drwx------+  3 scheung  staff   102 Sep  1 01:01 Movies
+drwx------+  3 scheung  staff   102 Sep  1 01:01 Music
+drwx------+  3 scheung  staff   102 Sep  1 01:01 Pictures
+drwxr-xr-x+  4 scheung  staff   136 Sep  1 01:01 Public
+echeung-as-MBP:~ scheung$ 
+
+
+
 
 
 
@@ -48,13 +56,9 @@ $ ls -a Documents
 
 Copy and paste the first *two lines* of output below.
 ----------
-[C:\~]$ ls -a Documents
-usage: list [session|option|hostkey|userkey]
-
-
-
-
-
+echeung-as-MBP:~ scheung$ ls -a documents
+.		..		.localized	GitHub
+echeung-as-MBP:~ scheung$ 
 
 ==========
 4.  Type:
@@ -63,20 +67,14 @@ $ ls doesnotexist
 
 Copy and paste the output below.
 ----------
-[C:\~]$ ls doesnotexist
-usage: list [session|option|hostkey|userkey]
-[C:\~]$ 
-[C:\~]$ 
-
-
-
-
-
+echeung-as-MBP:~ scheung$ ls doesnotexit
+ls: doesnotexit: No such file or directory
+echeung-as-MBP:~ scheung$ 
 
 ==========
 5.  What key do I press to go to the previous command?
 ----------
-Up arrow key
+up arrow
 
 
 
@@ -86,11 +84,8 @@ Up arrow key
 6.  Name two flags that we used in this exercise.
 ----------
 
--l
+-l 
 -a
-
-
-
 
 ==========
 7.  What was the main command that we used throughout this exercise?
@@ -99,17 +94,11 @@ Up arrow key
 ls
 
 
-
-
-
 ==========
 8.  What's one an argument that we've so far passed to a command?
 ----------
 
--l
--a
-
-
+documents
 
 
 ==========
@@ -119,18 +108,10 @@ $ foo<ENTER>
 
 Copy and paste the output below.
 ----------
-[C:\~]$ foo
-'foo' is not recognized as an internal or external command,
-operable program or batch file.
 
-[C:\~]$ 
-[C:\~]$ 
-
-
-
-
-
-
+echeung-as-MBP:~ scheung$ foo
+-bash: foo: command not found
+echeung-as-MBP:~ scheung$ 
 
 
 ==========
@@ -140,13 +121,7 @@ operable program or batch file.
 
 Copy and paste the output below.
 ----------
-[C:\~]$ up
-'up' is not recognized as an internal or external command,
-operable program or batch file.
-
-[C:\~]$ 
-
-
+-bash: foo: command not found
 
 
 
@@ -158,10 +133,11 @@ $ ls -a Desktop
 
 Identify the command, flag, argument, and prompt:
 ----------
-[C:\~]$ ls -a Desktop
-usage: list [session|option|hostkey|userkey]
-[C:\~]$ 
 
+command: ls
+flag: -a
+argument: desktop
+prompt: $
 
 
 
@@ -178,21 +154,14 @@ Follow the instructions line-by-line.
 ==========
 12. Open a new terminal window. Create a directory called mtec1002. What command did you use?
 ----------
-mkdir
 
-
-
-
-
+mkdir mtec1003
 
 ==========
 13. Change your directory so that you're in mtec1002. What command did you use?
 ----------
-CD MTECH1002
- 
 
-
-
+cd mtec1003
 
 ==========
 14. Type:
@@ -205,13 +174,10 @@ If it doesn't ask for help before moving on!
 
 Copy and paste the output of pwd below.
 ----------
-[C:\~\MTECH1002]$ pwd
-C:\Users\samue.DESKTOP-TEA069N\OneDrive\Documents\MTECH1002
-[C:\~\MTECH1002]$ 
 
-
-
-
+echeung-as-MBP:mtec1003 scheung$ pwd
+/Users/scheung/mtec1003
+echeung-as-MBP:mtec1003 scheung$ 
 
 
 ==========
@@ -222,21 +188,10 @@ $ ls
 
 Copy and paste the output below.
 ----------
-[C:\~\MTECH1002]$ mkdir animals
-
-[C:\~\MTECH1002]$ ls
-Directory of C:\Users\samue.DESKTOP-TEA069N\OneDrive\Documents\MTECH1002
-
-Name                      Host                  Protocol  User Name  
-------------------------- --------------------- --------- -----------
-animals/
-
-[C:\~\MTECH1002]$ 
-
-
-
-
-
+echeung-as-MBP:mtec1003 scheung$ mkdir animals
+echeung-as-MBP:mtec1003 scheung$ ls
+animals
+echeung-as-MBP:mtec1003 scheung$ 
 
 ==========
 16. Type:
@@ -246,41 +201,19 @@ $ ls
 
 Copy and paste the output below.
 ----------
-[C:\~\MTECH1002]$ mkdir food
 
-[C:\~\MTECH1002]$ ls
-Directory of C:\Users\samue.DESKTOP-TEA069N\OneDrive\Documents\MTECH1002
-
-Name                      Host                  Protocol  User Name  
-------------------------- --------------------- --------- -----------
-animals/
-food/
-
-[C:\~\MTECH1002]$ 
-
-
-
-
+animals	food
 
 
 ==========
 17. Type:
 
-$ mkdir -p foo/bar/
+$ mkdir -p foo/bar/baz/qux
+$ ls
 
 Copy and paste the output below.
 ----------
-[C:\~\MTECH1002]$ mkdir -p foo/bar/
-The syntax of the command is incorrect.
-
-[C:\~\MTECH1002]$ 
-
-
-I use xShell but it does not take the -p argument. 
-
-
-
-
+animals	foo	food
 
 ==========
 18. Type:
@@ -290,10 +223,10 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
-
-
-
+echeung-as-MBP:mtec1003 scheung$ cd foo/bar/baz/qux
+echeung-as-MBP:qux scheung$ pwd
+/Users/scheung/mtec1003/foo/bar/baz/qux
+echeung-as-MBP:qux scheung$ 
 
 
 ==========
@@ -304,11 +237,9 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
-
-
-
-
+echeung-as-MBP:bar scheung$ pwd
+/Users/scheung/mtec1003/foo/bar
+echeung-as-MBP:bar scheung$ 
 
 ==========
 20. Type:
@@ -524,7 +455,7 @@ What command did you use?
 ==========
 36. What command is used to delete empty directories?
 ----------
-rmdir *" command
+
 
 
 
@@ -560,7 +491,7 @@ rmdir *" command
 ==========
 40. What's a pathname?
 ----------
-A pathname is a general form of the name or directory, specifies a unique location in a file system.
+
 
 
 
@@ -569,7 +500,7 @@ A pathname is a general form of the name or directory, specifies a unique locati
 ==========
 41. What is a directory?
 ----------
-A file that consists of a set of other files
+
 
 
 
