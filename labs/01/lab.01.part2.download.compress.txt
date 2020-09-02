@@ -15,8 +15,8 @@ Feel free to use your workstation to test your answers to the questions that don
 1. Write the command that you would use to change to the root directory.
 ----------
 
-test
-
+echeung-as-MBP:downloads scheung$ cd
+echeung-as-MBP:~ scheung$
 ==========
 2. Write the command that you would use to change to your home directory.
 ----------
@@ -74,8 +74,9 @@ $ echo hello there
 
 Copy and paste the output below.
 ----------
-
-
+echeung-as-MBP:~ scheung$ echo hello there
+hello there
+echeung-as-MBP:~ scheung$ 
 
 
 ==========
@@ -85,8 +86,9 @@ $ echo whoa
 
 Copy and paste the output below.
 ----------
-
-
+echeung-as-MBP:~ scheung$ echo whoa
+whoa
+echeung-as-MBP:~ scheung$
 
 ==========
 3. Type:
@@ -124,8 +126,9 @@ $ echo *
 
 What happens?
 ----------
-
-
+echeung-as-MBP:~ scheung$ echo *
+Applications Desktop Documents Downloads Library Movies Music Pictures Public mtec1003
+echeung-as-MBP:~ scheung$ 
 
 
 ==========
@@ -133,7 +136,7 @@ What happens?
 
 Write the command that you used below:
 ----------
-
+clear
 
 
 ==========
@@ -148,8 +151,11 @@ $ curl -o mygoogle.html www.google.com
 
 Now copy and paste the output below.
 ----------
-
-
+echeung-as-MBP:~ scheung$ curl -o mygoogle.html www.google.com
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 12083    0 12083    0     0  95126      0 --:--:-- --:--:-- --:--:-- 95896
+echeung-as-MBP:~ scheung$ 
 
 
 
