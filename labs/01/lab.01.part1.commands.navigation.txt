@@ -54,10 +54,14 @@ echeung-as-MBP:~ scheung$
 
 $ ls -a Documents
 
-Copy and paste the first *two lines* of output below.
-----------
-echeung-as-MBP:~ scheung$ ls -a documents
-.		..		.localized	GitHub
+echeung-as-MBP:~ scheung$ ls -a
+.			.bash_sessions		Movies
+..			.gitconfig		Music
+.CFUserTextEncoding	Applications		Pictures
+.DS_Store		Desktop			Public
+.Trash			Documents		mtec1003
+.atom			Downloads
+.bash_history		Library
 echeung-as-MBP:~ scheung$ 
 
 ==========
@@ -152,13 +156,13 @@ Follow the instructions line-by-line.
 ==========
 
 ==========
-12. Open a new terminal window. Create a directory called mtec1002. What command did you use?
+12. Open a new terminal window. Create a directory called mtec1003. What command did you use?
 ----------
 
 mkdir mtec1003
 
 ==========
-13. Change your directory so that you're in mtec1002. What command did you use?
+13. Change your directory so that you're in mtec1003. What command did you use?
 ----------
 
 cd mtec1003
@@ -250,6 +254,10 @@ $ pwd
 Copy and paste the output below.
 ----------
 
+echeung-as-MBP:bar scheung$ cd -
+/Users/scheung/mtec1003/foo/bar/baz/qux
+echeung-as-MBP:qux scheung$ 
+
 
 
 
@@ -264,8 +272,10 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
-
+echeung-as-MBP:qux scheung$ cd ../../../..
+echeung-as-MBP:mtec1003 scheung$ pwd
+/Users/scheung/mtec1003
+echeung-as-MBP:mtec1003 scheung$ 
 
 
 
@@ -278,7 +288,8 @@ $ ls -l
 
 Copy and paste the first 3 lines from the output into the space below.
 ----------
-
+drwxr-xr-x  4 scheung  staff  136 Sep  1 23:11 foo
+drwxr-xr-x  2 scheung  staff   68 Sep  1 23:09 food
 
 
 
@@ -292,11 +303,12 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
-
-
-
-
+echeung-as-MBP:mtec1003 scheung$ cd ~
+echeung-as-MBP:~ scheung$ pwd
+/Users/scheung
+echeung-as-MBP:~ scheung$ pwd
+/Users/scheung
+echeung-as-MBP:~ scheung$ 
 
 ==========
 24. Type:
@@ -306,11 +318,10 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
-
-
-
-
+echeung-as-MBP:~ scheung$ cd /volumes
+echeung-as-MBP:volumes scheung$ pwd
+/volumes
+echeung-as-MBP:volumes scheung$ 
 
 ==========
 25. Type:
@@ -320,22 +331,23 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
-
-
-
+echeung-as-MBP:volumes scheung$ cd /unknown_folder
+-bash: cd: /unknown_folder: No such file or directory
+echeung-as-MBP:volumes scheung$ 
 
 
 ==========
 26. Type:
 
-$ cd ~/mtec1002
+$ cd ~/mtec1003
 $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
-
+echeung-as-MBP:volumes scheung$ cd ~/mtec1003
+echeung-as-MBP:mtec1003 scheung$ pwd
+/Users/scheung/mtec1003
+echeung-as-MBP:mtec1003 scheung$ 
 
 
 
@@ -349,17 +361,17 @@ Copy and paste the output into the space below.
 ----------
 
 
+echeung-as-MBP:mtec1003 scheung$ hostname
+echeung-as-MBP.fios-router.home
 
 
 
 
 ==========
-28. Make sure you're back in your mtec1002, which should be in your home folder.  What command would you use to find out if you're in the right folder?  Write the command below, then run it.
+28. Make sure you're back in your mtec1003, which should be in your home folder.  What command would you use to find out if you're in the right folder?  Write the command below, then run it.
 ----------
 
-
-
-
+pwd
 
 
 ==========
@@ -387,8 +399,7 @@ lemon
 
 Write the one command you used below:
 ----------
-
-
+mkdir -p lemon/strawberry/orange/pineapple
 
 
 
@@ -398,8 +409,7 @@ Write the one command you used below:
 
 Write the command you used to create the directory below:
 ----------
-
-
+mkdir aardvard
 
 
 
@@ -409,9 +419,9 @@ Write the command you used to create the directory below:
 
 What is the modified date of the aardvark directory?
 ----------
+8:22
 
-
-
+drwxr-xr-x  2 scheung  staff   68 Sep  2 08:22 aardvard
 
 
 
@@ -425,7 +435,7 @@ What is the modified date of the aardvark directory?
 What command did you use?
 ----------
 
-
+mkdir -p foo/bar/baz
 
 
 
@@ -436,7 +446,7 @@ What command did you use?
 What command did you use?
 ----------
 
-
+cd foo/bar/baz
 
 
 
@@ -447,7 +457,7 @@ What command did you use?
 What command did you use?
 ----------
 
-
+cd ../..
 
 
 
@@ -456,14 +466,15 @@ What command did you use?
 36. What command is used to delete empty directories?
 ----------
 
-
+rmdir
 
 
 
 
 ==========
-37. What command is used to print out your current working directory?
+37. what command did you use to print out your current working directory?
 ----------
+pwd
 
 
 
@@ -474,6 +485,8 @@ What command did you use?
 38. What flag do I pass to ls to print out all files?
 ----------
 
+ls -a
+
 
 
 
@@ -482,7 +495,7 @@ What command did you use?
 ==========
 39. What's the shortcut for home directory?
 ----------
-
+cd ~/
 
 
 
@@ -491,7 +504,8 @@ What command did you use?
 ==========
 40. What's a pathname?
 ----------
-
+Pathname is file location. 
+scheung$
 
 
 
@@ -501,7 +515,7 @@ What command did you use?
 41. What is a directory?
 ----------
 
-
+cataloging structure on a file system that references other files (and directories)
 
 
 
@@ -509,3 +523,4 @@ What command did you use?
 ==========
 42. What's the *absolute* path (full path, starting at root) to your user's Downloads directory?
 ----------
+/Users/scheung/downloads
