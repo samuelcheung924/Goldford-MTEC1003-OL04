@@ -15,17 +15,18 @@ Feel free to use your workstation to test your answers to the questions that don
 1. Write the command that you would use to change to the root directory.
 ----------
 
-echeung-as-MBP:downloads scheung$ cd
-echeung-as-MBP:~ scheung$
+cd /
+
 ==========
 2. Write the command that you would use to change to your home directory.
 ----------
-
+cd ~ 
 
 
 ==========
 3. What's the absolute path to your Desktop directory?
 ----------
+/Users/scheung/desktop
 
 
 
@@ -34,13 +35,14 @@ echeung-as-MBP:~ scheung$
 called stuff without changing your directory?  Write your command below.
 ----------
 
-
+-p /scheung/desktop/stuff
 
 
 ==========
 5. If you're in your Desktop directory, how would you change to two directories right above it (again, this should be /Users) using a relative path?  Write your command below.
 ----------
 
+cd /users
 
 
 ==========
@@ -97,7 +99,8 @@ $ echo good mornin'
 
 Copy and paste the output below.
 ----------
-
+echeung-as-MBP:~ scheung$ echo good mornin'
+> 
 
 
 ==========
@@ -105,7 +108,8 @@ Copy and paste the output below.
 
 Type [CTRL + C] to get your prompt back.
 ----------
-
+echeung-as-MBP:~ scheung$ Uh-oh... we're stuck!
+> 
 
 
 ==========
@@ -115,8 +119,9 @@ $ echo "good mornin'"
 
 Copy and paste the output below.
 ----------
-
-
+echeung-as-MBP:~ scheung$ echo "good mornin'"
+good mornin'
+echeung-as-MBP:~ scheung$ 
 
 ==========
 6. There are some other symbols that have special meanings if you don't quote them.
@@ -166,8 +171,8 @@ echeung-as-MBP:~ scheung$
 
 Write the command you used to determine your directory. Also, copy and paste the output below.
 ----------
-
-
+echeung-as-MBP:~ scheung$ pwd
+/Users/scheung
 
 
 
