@@ -204,12 +204,7 @@ Write down the command(s) that you used to download the file below.
 Finally, write the output of the command below.
 ----------
 
-
-
-
-
-
-
+curl -o my-flashcards.zip einbahnstrasse.github.io/Goldford-MTEC1003-Fall2020/labs/01
 
 
 ==========
