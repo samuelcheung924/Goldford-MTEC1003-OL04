@@ -42,12 +42,14 @@ called stuff without changing your directory?  Write your command below.
 5. If you're in your Desktop directory, how would you change to two directories right above it (again, this should be /Users) using a relative path?  Write your command below.
 ----------
 
-cd /users
+cd ../..
 
 
 ==========
 6. What's the shortcut for changing to the directory that you were just previously in?  For example, if I were in /Volumes... and I changed to /Users/professor/Desktop, what's a quick way of changing to /Volumes without writing something like cd /Volumes?
 ----------
+
+cd /users
 
 
 
@@ -56,6 +58,7 @@ cd /users
 for all files on your Desktop — if you're currently in your home directory?  Write your command below.
 ----------
 
+ls -al
 
 
 ==========
@@ -108,8 +111,7 @@ echeung-as-MBP:~ scheung$ echo good mornin'
 
 Type [CTRL + C] to get your prompt back.
 ----------
-echeung-as-MBP:~ scheung$ Uh-oh... we're stuck!
-> 
+
 
 
 ==========
@@ -129,7 +131,7 @@ For example, > brings up a different prompt.  Try *.
 
 $ echo *
 
-What happens?
+What happens? lists everything under my home folder.
 ----------
 echeung-as-MBP:~ scheung$ echo *
 Applications Desktop Documents Downloads Library Movies Music Pictures Public mtec1003
@@ -182,6 +184,8 @@ echeung-as-MBP:~ scheung$ pwd
 Write the command that you used to change to your home directory.
 If you were already in your home directory, write the command that you *would* have used to change to it!
 ----------
+
+cd ~
 
 
 
