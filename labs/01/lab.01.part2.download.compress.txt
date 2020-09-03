@@ -214,8 +214,21 @@ List the contents of your home directory to prove that the directory was created
 
 Copy and paste the output below.
 ----------
-
-
+echeung-as-MBP:~ scheung$ mkdir stuff
+echeung-as-MBP:~ scheung$ ls -l
+total 8
+drwx------@  3 scheung  staff   102 Sep  1 14:27 Applications
+drwx------@  4 scheung  staff   136 Sep  2 20:33 Desktop
+drwx------@  4 scheung  staff   136 Sep  1 20:22 Documents
+drwx------+  6 scheung  staff   204 Sep  3 09:08 Downloads
+drwx------@ 59 scheung  staff  2006 Sep  1 19:28 Library
+drwx------+  3 scheung  staff   102 Sep  1 01:01 Movies
+drwx------+  3 scheung  staff   102 Sep  1 01:01 Music
+drwx------+  3 scheung  staff   102 Sep  1 01:01 Pictures
+drwxr-xr-x+  4 scheung  staff   136 Sep  1 01:01 Public
+drwxr-xr-x   7 scheung  staff   238 Sep  2 08:22 mtec1003
+-rw-r--r--   1 scheung  staff  2560 Sep  2 22:29 staff.tar
+drwxr-xr-x   2 scheung  staff    68 Sep  3 09:19 stuff
 
 
 ==========
@@ -230,7 +243,9 @@ List the files in the directory you're currently in (which should be stuff).
 Copy and paste the output below.
 ----------
 
-
+echeung-as-MBP:stuff scheung$ ls -l
+total 8
+-rw-r--r--  1 scheung  staff  3 Sep  3 09:24 hello.txt
 
 ==========
 14. Go up one directory back into your home directory.
@@ -242,6 +257,21 @@ List the files in the directory you're currently in (which should be home).
 
 Copy and paste the output below.
 ----------
+echeung-as-MBP:~ scheung$ ls -l
+total 8
+drwx------@  3 scheung  staff   102 Sep  1 14:27 Applications
+drwx------@  4 scheung  staff   136 Sep  2 20:33 Desktop
+drwx------@  4 scheung  staff   136 Sep  1 20:22 Documents
+drwx------+  6 scheung  staff   204 Sep  3 09:08 Downloads
+drwx------@ 59 scheung  staff  2006 Sep  1 19:28 Library
+drwx------+  3 scheung  staff   102 Sep  1 01:01 Movies
+drwx------+  3 scheung  staff   102 Sep  1 01:01 Music
+drwx------+  3 scheung  staff   102 Sep  1 01:01 Pictures
+drwxr-xr-x+  4 scheung  staff   136 Sep  1 01:01 Public
+drwxr-xr-x   7 scheung  staff   238 Sep  2 08:22 mtec1003
+drwxr-xr-x   3 scheung  staff   102 Sep  3 09:24 stuff
+-rw-r--r--   1 scheung  staff  2560 Sep  3 09:33 stuff.tar
+echeung-as-MBP:~ scheung$ 
 
 
 
@@ -254,8 +284,9 @@ $ tar -cvf stuff.tar stuff
 
 Copy and paste the output below.
 ----------
-
-
+echeung-as-MBP:~ scheung$ tar -cvf stuff.tar stuff
+a stuff
+a stuff/hello.txt
 
 
 
@@ -268,8 +299,21 @@ gzip stuff.tar
 List your files again.... you should have a new file with a .gz extension.
 Copy and paste the output of your this below.
 ----------
-
-
+echeung-as-MBP:~ scheung$ gzip stuff.tar
+echeung-as-MBP:~ scheung$ ls -l
+total 8
+drwx------@  3 scheung  staff   102 Sep  1 14:27 Applications
+drwx------@  4 scheung  staff   136 Sep  2 20:33 Desktop
+drwx------@  4 scheung  staff   136 Sep  1 20:22 Documents
+drwx------+  6 scheung  staff   204 Sep  3 09:08 Downloads
+drwx------@ 59 scheung  staff  2006 Sep  1 19:28 Library
+drwx------+  3 scheung  staff   102 Sep  1 01:01 Movies
+drwx------+  3 scheung  staff   102 Sep  1 01:01 Music
+drwx------+  3 scheung  staff   102 Sep  1 01:01 Pictures
+drwxr-xr-x+  4 scheung  staff   136 Sep  1 01:01 Public
+drwxr-xr-x   7 scheung  staff   238 Sep  2 08:22 mtec1003
+drwxr-xr-x   3 scheung  staff   102 Sep  3 09:24 stuff
+-rw-r--r--   1 scheung  staff   166 Sep  3 09:38 stuff.tar.gz
 
 
 
@@ -280,3 +324,23 @@ $ tar -xvf stuff.tar.gz
 
 List the files.  Copy and paste the output below (the folder, stuff, should be there).
 ----------
+
+echeung-as-MBP:~ scheung$ tar -xvf stuff.tar.gz
+x stuff/
+x stuff/hello.txt
+echeung-as-MBP:~ scheung$ ls -l
+total 8
+drwx------@  3 scheung  staff   102 Sep  1 14:27 Applications
+drwx------@  4 scheung  staff   136 Sep  2 20:33 Desktop
+drwx------@  4 scheung  staff   136 Sep  1 20:22 Documents
+drwx------+  6 scheung  staff   204 Sep  3 09:08 Downloads
+drwx------@ 59 scheung  staff  2006 Sep  1 19:28 Library
+drwx------+  3 scheung  staff   102 Sep  1 01:01 Movies
+drwx------+  3 scheung  staff   102 Sep  1 01:01 Music
+drwx------+  3 scheung  staff   102 Sep  1 01:01 Pictures
+drwxr-xr-x+  4 scheung  staff   136 Sep  1 01:01 Public
+drwxr-xr-x   7 scheung  staff   238 Sep  2 08:22 mtec1003
+drwxr-xr-x   3 scheung  staff   102 Sep  3 09:45 stuff
+-rw-r--r--   1 scheung  staff   166 Sep  3 09:38 stuff.tar.gz
+echeung-as-MBP:~ scheung$ 
+
