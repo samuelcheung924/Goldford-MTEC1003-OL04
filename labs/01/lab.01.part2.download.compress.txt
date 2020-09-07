@@ -35,7 +35,7 @@ cd ~
 called stuff without changing your directory?  Write your command below.
 ----------
 
--p /scheung/desktop/stuff
+cd -p /scheung/desktop/stuff
 
 
 ==========
