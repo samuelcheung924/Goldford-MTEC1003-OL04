@@ -54,6 +54,9 @@ Write the command(s) that you used to download this file:
 curl -o mtec1003-lab-02.tar.gz http://einbahnstrasse.github.io/Goldford-MTEC1003-Fall2020/labs/03/
 
 
+tar xzf flower_photos.tgz
+
+
 
 
 
@@ -66,10 +69,8 @@ tar -xvf mtec1003-lab-02.tar.gz
 
 
 
-
-
 ==========
-6.  You should now have a directory called mtec1003-lab-02 inside your mtec1003 directory, 
+6.  You should now have a directory called inside your mtec1003 directory, 
 which is inside your home directory. Verify that this directory exists.
 
 If the directory does not exist, start over from step #1.
@@ -79,8 +80,18 @@ Otherwise...
 Write the command(s) that you used to do this - as well as its output - below:
 ----------
 
+cd ~/mtec1003
+mkdir mtec1003-lab-02
 
-
+echeung-as-MBP:mtec1003 scheung$ ls -l
+total 0
+drwxr-xr-x  2 scheung  staff   68 Sep 10 16:26 2
+drwxr-xr-x  2 scheung  staff   68 Sep  2 08:22 aardvard
+drwxr-xr-x  4 scheung  staff  136 Sep  1 23:11 foo
+drwxr-xr-x  2 scheung  staff   68 Sep  1 23:09 food
+drwxr-xr-x  2 scheung  staff   68 Sep 10 16:26 lab
+drwxr-xr-x  3 scheung  staff  102 Sep  2 08:21 lemon
+drwxr-xr-x  2 scheung  staff   68 Sep 10 20:00 mtec1003-lab-02
 
 
 
