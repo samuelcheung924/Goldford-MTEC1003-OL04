@@ -101,6 +101,8 @@ drwxr-xr-x  2 scheung  staff   68 Sep 10 20:00 mtec1003-lab-02
 
 Write the command(s) that you used to determine this - as well as its output - below:
 ----------
+echeung-as-MBP:week 2 scheung$ ls mtec1003-lab-03
+books	logs	web
 
 
 
