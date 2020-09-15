@@ -74,26 +74,17 @@ Otherwise...
 
 Write the command(s) that you used to do this - as well as its output - below:
 ----------
-echeung-as-MBP:Documents scheung$ ls -l
+
+echeung-as-MBP:~ scheung$ cd mtec1003
+echeung-as-MBP:mtec1003 scheung$ ls -l
 total 0
-drwxr-xr-x  4 scheung  staff  136 Sep 14 15:34 GitHub
-drwxr-xr-x  5 scheung  staff  170 Sep 14 16:24 week 2
-echeung-as-MBP:Documents scheung$ cd week 2
--bash: cd: week: No such file or directory
-echeung-as-MBP:Documents scheung$ cd week\ 2/
-echeung-as-MBP:week 2 scheung$ ls -l
-total 1800
-drwxr-xr-x  7 scheung  staff     238 Sep 14 16:24 mtec1003-lab-03
--rw-r--r--@ 1 scheung  staff  920373 Sep  1 20:14 mtec1003-lab-03.tar copy.gz
-echeung-as-MBP:week 2 scheung$ pwd
-/Users/scheung/Documents/week 2
-echeung-as-MBP:week 2 scheung$ cd mtec1003-lab-03
-echeung-as-MBP:mtec1003-lab-03 scheung$ ls -l
-total 0
-drwxr-xr-x    4 scheung  staff   136 Sep 14 15:43 books
--rw-r--r--    1 scheung  staff     0 Sep 14 16:24 copy_to_backup.sh
-drwxr-xr-x  129 scheung  staff  4386 Sep 14 15:43 logs
-drwxr-xr-x    6 scheung  staff   204 Sep 14 15:43 web
+drwxr-xr-x  2 scheung  staff   68 Sep 10 16:26 2
+drwxr-xr-x  2 scheung  staff   68 Sep  2 08:22 aardvard
+drwxr-xr-x  4 scheung  staff  136 Sep  1 23:11 foo
+drwxr-xr-x  2 scheung  staff   68 Sep  1 23:09 food
+drwxr-xr-x  2 scheung  staff   68 Sep 10 16:26 lab
+drwxr-xr-x  3 scheung  staff  102 Sep  2 08:21 lemon
+drwxr-xr-x  6 scheung  staff  204 Sep 14 21:18 mtec1003-lab-03
 
 
 
@@ -102,15 +93,13 @@ drwxr-xr-x    6 scheung  staff   204 Sep 14 15:43 web
 
 Write the command(s) that you used to determine this - as well as its output - below:
 ----------
-echeung-as-MBP:week 2 scheung$ cd mtec1003-lab-03
+echeung-as-MBP:mtec1003 scheung$ cd mtec1003-lab-03/
 echeung-as-MBP:mtec1003-lab-03 scheung$ ls -l
 total 0
-drwxr-xr-x    4 scheung  staff   136 Sep 14 15:43 books
--rw-r--r--    1 scheung  staff     0 Sep 14 16:24 copy_to_backup.sh
-drwxr-xr-x  129 scheung  staff  4386 Sep 14 15:43 logs
-drwxr-xr-x    6 scheung  staff   204 Sep 14 15:43 web
-
-
+drwxr-xr-x    4 scheung  staff   136 Feb 13  2013 books
+drwxr-xr-x  129 scheung  staff  4386 Sep 14 21:18 logs
+drwxr-xr-x    6 scheung  staff   204 Feb 13  2013 web
+echeung-as-MBP:mtec1003-lab-03 scheung$ 
 
 
 ==========
@@ -118,23 +107,29 @@ drwxr-xr-x    6 scheung  staff   204 Sep 14 15:43 web
 
 Write the commands, including going home, that you used to do this:
 ----------
-echeung-as-MBP:Documents scheung$ cd week2
-echeung-as-MBP:week2 scheung$ ls -l
-total 1800
-drwxr-xr-x  7 scheung  staff     238 Sep 14 20:24 mtec1003-lab-03
--rw-r--r--@ 1 scheung  staff  920373 Sep  1 20:14 mtec1003-lab-03.tar copy.gz
-echeung-as-MBP:week2 scheung$ mtech1003-lab-03
-echeung-as-MBP:mtec1003-lab-03 scheung$ ls -l
-total 0
-drwxr-xr-x    5 scheung  staff   170 Sep 14 20:24 books
--rw-r--r--    1 scheung  staff     0 Sep 14 16:24 copy_to_backup.sh
-drwxr-xr-x  129 scheung  staff  4386 Sep 14 20:24 logs
-drwxr-xr-x    7 scheung  staff   238 Sep 14 20:24 web
-echeung-as-MBP:mtec1003-lab-03 scheung$ cd books
-echeung-as-MBP:books scheung$ ls -l
-total 0
-drwxr-xr-x  3 scheung  staff  102 Sep 14 20:24 other
-drwxr-xr-x  4 scheung  staff  136 Sep 14 20:24 science-fiction
+
+echeung-as-MBP:~ scheung$ pwd 
+/Users/scheung
+echeung-as-MBP:~ scheung$ ls -l
+total 8
+drwx------@  3 scheung  staff   102 Sep  1 14:27 Applications
+drwx------@  4 scheung  staff   136 Sep  2 20:33 Desktop
+drwx------@  6 scheung  staff   204 Sep 14 20:24 Documents
+drwx------+  9 scheung  staff   306 Sep 14 21:18 Downloads
+drwx------@ 59 scheung  staff  2006 Sep  1 19:28 Library
+drwx------+  3 scheung  staff   102 Sep  1 01:01 Movies
+drwx------+  3 scheung  staff   102 Sep  1 01:01 Music
+drwx------+  3 scheung  staff   102 Sep  1 01:01 Pictures
+drwxr-xr-x+  4 scheung  staff   136 Sep  1 01:01 Public
+drwxr-xr-x  10 scheung  staff   340 Sep 14 21:22 mtec1003
+drwxr-xr-x   3 scheung  staff   102 Sep  3 09:45 stuff
+-rw-r--r--   1 scheung  staff   166 Sep  3 09:38 stuff.tar.gz
+echeung-as-MBP:~ scheung$ cd ~/mtec1003/mtec1003-lab-03/books/science-fiction
+echeung-as-MBP:science-fiction scheung$ pwd
+/Users/scheung/mtec1003/mtec1003-lab-03/books/science-fiction
+echeung-as-MBP:science-fiction scheung$ 
+
+
 
 
 
