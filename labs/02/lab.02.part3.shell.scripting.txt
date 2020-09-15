@@ -51,9 +51,10 @@ Finally, verify that you're in the right place.
 What 3 commands did you use to do this?
 ----------
 
-echeung-as-MBP:week 2 scheung$ cd /Users/scheung/Documents/week\ 2/mtec1003-lab-03 
+echeung-as-MBP:mtec1003-lab-03 scheung$ cd ~
+echeung-as-MBP:~ scheung$ cd ~/mtec1003/mtec1003-lab-03
 echeung-as-MBP:mtec1003-lab-03 scheung$ pwd
-/Users/scheung/Documents/week 2/mtec1003-lab-03
+/Users/scheung/mtec1003/mtec1003-lab-03
 
 
 
@@ -65,20 +66,22 @@ Verify that the file exists.
 What commands did you use to do this?
 ----------
 
-
-cheung-as-MBP:mtec1003-lab-03 scheung$ touch copy_to_backup.sh
-echeung-as-MBP:mtec1003-lab-03 scheung$ ls
-books			logs
-copy_to_backup.sh	web
-
+echeung-as-MBP:mtec1003-lab-03 scheung$ touch copy_to_backup.sh
+echeung-as-MBP:mtec1003-lab-03 scheung$ ls -l
+total 0
+drwxr-xr-x    4 scheung  staff   136 Feb 13  2013 books
+-rw-r--r--    1 scheung  staff     0 Sep 14 23:39 copy_to_backup.sh
+drwxr-xr-x  129 scheung  staff  4386 Sep 14 21:18 logs
+drwxr-xr-x    6 scheung  staff   204 Feb 13  2013 web
 
 ==========
 5. What are the permissions on your copy_to_backup.sh.
 
 What command did you use to find the permissions?
 ----------
+ls -l
 
-
+-rw-r--r--    1 scheung  staff     0 Sep 14 23:39 copy_to_backup.sh
 
 
 
