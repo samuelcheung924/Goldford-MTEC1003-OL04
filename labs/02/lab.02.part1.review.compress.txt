@@ -138,13 +138,10 @@ echeung-as-MBP:science-fiction scheung$
 
 Write the command(s) that you used to do this - as well as its output - below:
 ----------
-echeung-as-MBP:books scheung$ cd science-fiction
 echeung-as-MBP:science-fiction scheung$ ls -l
 total 2208
 -rw-r--r--  1 scheung  staff  448685 Feb 13  2013 pg84.txt
 -rw-r--r--  1 scheung  staff  676440 Feb 13  2013 pg86.txt
-
-
 
 ==========
 10.  Return to your home directory again.  
@@ -153,7 +150,10 @@ Verify that you're in the right directory using pwd.
 
 Write the command(s) that you used to do this below:
 ----------
-
+echeung-as-MBP:science-fiction scheung$ cd ~
+echeung-as-MBP:~ scheung$ cd ~/mtec1003/mtec1003-lab-03/books/science-fiction
+echeung-as-MBP:science-fiction scheung$ pwd
+/Users/scheung/mtec1003/mtec1003-lab-03/books/science-fiction
 
 
 
@@ -166,8 +166,11 @@ Hint: perhaps use something to show the modified date... and sort it by time...
 
 Write the command(s) that you used to do this below:
 ----------
-
-
+echeung-as-MBP:mtec1003-lab-03 scheung$ ls -lt
+total 0
+drwxr-xr-x  129 scheung  staff  4386 Sep 14 21:18 logs
+drwxr-xr-x    4 scheung  staff   136 Feb 13  2013 books
+drwxr-xr-x    6 scheung  staff   204 Feb 13  2013 web
 
 
 
