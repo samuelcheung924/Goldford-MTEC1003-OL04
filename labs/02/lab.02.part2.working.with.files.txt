@@ -151,10 +151,7 @@ Use the command called cat on the file to show its contents.
 
 Describe what happened below.
 ----------
-
-
-
-
+I see the content of pg1232.txt from the beginning. 
 
 
 ==========
@@ -166,11 +163,9 @@ Use the command, head, on the file to show the contents of the beginning of the 
 
 Write the command that you used below.  Write the last line of the output below (it should be the title).
 ----------
+head pg1232.txt
 
-
-
-
-
+Title: The Prince
 
 ==========
 14. Using the same file again!
@@ -181,9 +176,9 @@ Use tail on the file to show the contents of the end of the file.
 
 Write the command that you used below.  Write the last line of the output below.
 ----------
+tail pg1232.txt
 
-
-
+subscribe to our email newsletter to hear about new eBooks.
 
 
 
