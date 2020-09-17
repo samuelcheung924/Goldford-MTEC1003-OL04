@@ -192,7 +192,11 @@ Use less and more on the file to show the contents of the file.  Try pressing sp
 
 Write the command that you used below.  Describe what spacebar and q does after using either less or more.
 ----------
+less pg1232.txt. 
 
+this shows content of a file with pagination
+when spacebar is pressed it scrolls to the next page
+and the q button brings you back to the command prompt
 
 
 
@@ -205,7 +209,7 @@ Write the command that you used below.  Describe what spacebar and q does after 
 (Some characteristics that may help your description might be the length of the file, whether or not you'd like to read the whole thing... or just the beginning or end, etc.)
 ----------
 
-
+cat
 
 
 
@@ -213,17 +217,14 @@ Write the command that you used below.  Describe what spacebar and q does after 
 ==========
 17.  How many words are in pg1232.txt?  What command did you use to determine the word count?
 ----------
-
-
-
-
-
+echeung-as-MBP:other scheung$ wc -w pg1232.txt
+   52639 pg1232.txt
 
 ==========
 18.  How many lines are in pg1232.txt?  What command did you use to determine the line count?
 ----------
-
-
+echeung-as-MBP:other scheung$ wc -l pg1232.txt
+    5063 pg1232.txt
 
 
 
@@ -233,7 +234,7 @@ Write the command that you used below.  Describe what spacebar and q does after 
 
 Write the command that you used below.
 ----------
-
+cp *.txt /users/scheung
 
 
 
@@ -242,3 +243,5 @@ Write the command that you used below.
 move it into your mtec1003-lab-02 folder. 
 Next: Go on to LAB 2 / PART 3...
 ----------
+
+mv pg1232.txt /users/scheung/mtec1003/mtec1003-lab-03
