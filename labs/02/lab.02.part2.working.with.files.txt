@@ -16,6 +16,7 @@ Follow the instructions line-by-line.
 What command did you use?
 ----------
 
+cd ~/mtec1003/mtec1003-lab-03
 
 
 ==========
@@ -24,9 +25,8 @@ Then, change into your new directory.
 
 What two commands did you use?
 ----------
-
-
-
+mkdir my_files
+cd my_files
 
 ==========
 3. Create a new file using touch:
@@ -36,8 +36,10 @@ $ ls
 
 Copy and paste the output below.
 ----------
-
-
+echeung-as-MBP:my_files scheung$ touch foo.txt
+echeung-as-MBP:my_files scheung$ ls -l
+total 0
+-rw-r--r--  1 scheung  staff  0 Sep 16 21:35 foo.txt
 
 
 ==========
@@ -45,23 +47,21 @@ Copy and paste the output below.
 
 What command did you use?
 ----------
-
-
-
-
+touch bar.txt
 
 ==========
+
 5. Create a copy of bar.txt called baz.txt, and then list the files again.
 
 Write the commands that you used. 
 Also, copy and paste the output of your file listing below.
 ----------
-
-
-
-
-
-
+echeung-as-MBP:my_files scheung$ cp bar.txt baz.txt
+echeung-as-MBP:my_files scheung$ ls -l
+total 0
+-rw-r--r--  1 scheung  staff  0 Sep 16 21:38 bar.txt
+-rw-r--r--  1 scheung  staff  0 Sep 16 21:40 baz.txt
+-rw-r--r--  1 scheung  staff  0 Sep 16 21:35 foo.txt
 
 
 ==========
@@ -70,13 +70,11 @@ Also, copy and paste the output of your file listing below.
 Write the command that you used to remove the file.
 Copy and paste the output of your file listing below.
 ----------
-
-
-
-
-
-
-
+echeung-as-MBP:my_files scheung$ rm bar.txt
+echeung-as-MBP:my_files scheung$ ls -l
+total 0
+-rw-r--r--  1 scheung  staff  0 Sep 16 21:40 baz.txt
+-rw-r--r--  1 scheung  staff  0 Sep 16 21:35 foo.txt
 
 ==========
 7. Move the file called foo.txt to qux.txt and then list the files again.
@@ -86,8 +84,11 @@ Write the command that you used to move the file.
 Copy and paste the output of your file listing below.
 ----------
 
-
-
+echeung-as-MBP:my_files scheung$ mv foo.txt qux.txt
+echeung-as-MBP:my_files scheung$ ls -l
+total 0
+-rw-r--r--  1 scheung  staff  0 Sep 16 21:40 baz.txt
+-rw-r--r--  1 scheung  staff  0 Sep 16 21:35 qux.txt
 
 
 
@@ -96,7 +97,7 @@ Copy and paste the output of your file listing below.
 ==========
 8. Go up one directory so that you're back in ~/mtec1003-lab-02. What command did you use?
 ----------
-
+cd ..
 
 
 ==========
@@ -104,8 +105,8 @@ Copy and paste the output of your file listing below.
 
 Write out the command that you used and what happened.
 ----------
-
-
+echeung-as-MBP:mtec1003-lab-03 scheung$ rmdir my_files
+rmdir: my_files: Directory not empty
 
 
 
@@ -117,11 +118,8 @@ Write out the command that you used and what happened.
 Write out the command that you used and what happened.
 ----------
 
-
-
-
-
-
+echeung-as-MBP:mtec1003-lab-03 scheung$ rm my_files/
+rm: my_files/: is a directory
 
 ==========
 11. First: MAKE SURE YOU'RE IN THE mtec1003-lab-02 directory!
@@ -134,7 +132,13 @@ Use this command:
 $ rm -rf my_files
 (options r = recursive; f = skip confirmation)
 ----------
-
+echeung-as-MBP:mtec1003-lab-03 scheung$ rm -rf my_files
+echeung-as-MBP:mtec1003-lab-03 scheung$ ls -l
+total 0
+drwxr-xr-x    5 scheung  staff   170 Sep 14 23:43 books
+-rw-r--r--    1 scheung  staff     0 Sep 14 23:39 copy_to_backup.sh
+drwxr-xr-x  129 scheung  staff  4386 Sep 14 21:18 logs
+drwxr-xr-x    7 scheung  staff   238 Sep 14 23:44 web
 
 
 
