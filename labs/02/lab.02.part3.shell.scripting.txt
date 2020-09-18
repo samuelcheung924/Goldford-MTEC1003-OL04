@@ -16,32 +16,24 @@ We're going to be writing a shell script. First, though... let's figure out what
 What command did you use, and what was its output?
 ----------
 
-
-
-echeung-as-MBP:week 2 scheung$ date
-Mon Sep 14 16:15:27 EDT 2020
-
-
+echeung-as-MBP:~ scheung$ date
+Fri Sep 18 13:53:54 EDT 2020
 
 ==========
 2. Print out a calendar for this month.
 
 What command did you use, and what was its output?
 ----------
-
-
-
-
-What two commands did you use?
+ What two commands did you use?
 ----------
-echeung-as-MBP:week 2 scheung$ cal
+echeung-as-MBP:~ scheung$ cal
    September 2020     
 Su Mo Tu We Th Fr Sa  
        1  2  3  4  5  
  6  7  8  9 10 11 12  
 13 14 15 16 17 18 19  
 20 21 22 23 24 25 26  
-27 28 29 30  
+27 28 29 30          
 
 ==========
 3. Go to your home directory. 
@@ -55,8 +47,6 @@ echeung-as-MBP:mtec1003-lab-03 scheung$ cd ~
 echeung-as-MBP:~ scheung$ cd ~/mtec1003/mtec1003-lab-03
 echeung-as-MBP:mtec1003-lab-03 scheung$ pwd
 /Users/scheung/mtec1003/mtec1003-lab-03
-
-
 
 
 ==========
@@ -83,6 +73,9 @@ ls -l
 
 -rw-r--r--    1 scheung  staff     0 Sep 14 23:39 copy_to_backup.sh
 
+user scheung has read and write only to the file. 
+group only has read
+World can read
 
 
 
@@ -92,11 +85,7 @@ Verify the new permissions.
 
 What commands did you use to do this?  What was the output?
 ----------
-
-
-
-
-
+chmod u+x copy_to_backup.sh
 
 ==========
 7. Try executing the file!
@@ -106,10 +95,9 @@ $ ./copy_to_backup.sh
 What command did you use to try to execute the file? What happens?
 ----------
 
+./copy_to_backup.sh
 
-
-
-
+The respose that was given back was permission denied for the user scheung.
 
 ==========
 8. Open the file with nano
@@ -117,10 +105,7 @@ What command did you use to try to execute the file? What happens?
 What command did you use to do this?
 ----------
 
-
-
-
-
+nano copy_to_backup.sh
 
 ==========
 9. In your file, write the commands to do the following
@@ -133,6 +118,7 @@ Don't forget the first line of your shell script! It should begin with #!/bin/ba
 
 Write out the code you typed into your file below...
 ----------
+
 
 
 
